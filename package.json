@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/LiberoLance/restaurant-page/issues"
   },
-  "homepage": "https://github.com/LiberoLance/restaurant-page#readme"
+  "homepage": "https://github.com/LiberoLance/restaurant-page#readme",
+  "keywords": [],
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
 }
