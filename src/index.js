@@ -1,2 +1,2 @@
 console.log("Hola!");
-import {page} from "./page.js";
+import { loadpage } from "./page.js";
