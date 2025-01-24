@@ -1,3 +1,3 @@
 console.log("Hola!");
-import { loadpage } from "./page.js";
-loadpage();
+import { loadPage } from "./page.js";
+loadPage();
