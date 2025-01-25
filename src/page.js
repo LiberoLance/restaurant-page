@@ -1,6 +1,13 @@
 function loadPage() {
   const content = document.getElementById("content");
+  const navHome = document.getElementById("home");
+  const navMenu = document.getElementById("menu");
+  const navAbout = document.getElementById("about");
 
+  const navHome.textContent = "Home";
+  const navMenu.textContent = "Menu";
+  const navAbout.textContent = "About";
+  
   const contentImg = document.createElement("img");
   const contentH = document.createElement("h1");
   const contentP = document.createElement("p");
