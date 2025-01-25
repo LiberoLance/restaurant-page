@@ -4,9 +4,9 @@ function loadPage() {
   const navMenu = document.getElementById("menu");
   const navAbout = document.getElementById("about");
 
-  const navHome.textContent = "Home";
-  const navMenu.textContent = "Menu";
-  const navAbout.textContent = "About";
+  navHome.textContent = "Home";
+  navMenu.textContent = "Menu";
+  navAbout.textContent = "About";
   
   const contentImg = document.createElement("img");
   const contentH = document.createElement("h1");
