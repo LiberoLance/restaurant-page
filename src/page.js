@@ -1,5 +1,5 @@
 function loadPage() {
-  const content = getElementById("content");
+  const content = document.getElementById("content");
 
   const contentImg = document.createElement("img");
   const contentH = document.createElement("h1");
