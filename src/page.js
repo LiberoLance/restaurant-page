@@ -9,7 +9,9 @@ function loadPage() {
   navAbout.textContent = "About";
   
   const header = document.createElement("div");
+  header.setAttribute("id", "header");
   const footer = document.createElement("div");
+  footer.setAttribute("id", "footer");
   const contentImg = document.createElement("img");
   const contentH = document.createElement("h1");
   const contentP = document.createElement("p");
