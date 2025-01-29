@@ -10,6 +10,8 @@ function loadPage() {
   
   const header = document.createElement("div");
   header.setAttribute("id", "header");
+  const testimonial = document.createElement("div");
+  testimonial.setAttribute("id", "testimonial"); 
   const footer = document.createElement("div");
   footer.setAttribute("id", "footer");
   const contentImg = document.createElement("img");
@@ -23,7 +25,8 @@ function loadPage() {
   content.appendChild(contentImg);
   content.appendChild(header);
   header.appendChild(contentH);
-  content.appendChild(contentP);
+  content.appendChild(testimonial);
+  testimonial.appendChild(contentP);
   content.appendChild(footer);
 }
 
