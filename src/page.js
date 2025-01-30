@@ -13,7 +13,9 @@ function loadPage() {
   const testimonial = document.createElement("div");
   testimonial.setAttribute("id", "testimonial");
   const hours = document.createElement("div");
-  hours.setAttribute("id", "hours"); 
+  hours.setAttribute("id", "hours");
+  const location = document.createElement("div");
+  location.setAttribute("id","location");  
   const footer = document.createElement("div");
   footer.setAttribute("id", "footer");
   const contentImg = document.createElement("img");
@@ -29,6 +31,7 @@ function loadPage() {
   header.appendChild(contentH);
   content.appendChild(testimonial);
   content.appendChild(hours);
+  content.appendChild(location);
   testimonial.appendChild(contentP);
   content.appendChild(footer);
 }
