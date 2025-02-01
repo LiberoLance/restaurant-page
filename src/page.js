@@ -26,8 +26,16 @@ function loadPage() {
   contentH.textContent = "Welcome to the SUPER RESTAURANT!";
   contentP.textContent = "Here at the super Restuarant we only serve the finestin fine dinning. Our Chefs are world reknown and expertly trained in dishing out the very best meals money can provide.";
  
+  const listHours = document.createElement("ul");
+  listHours.setAttribute("id", "listHours");
+
   //make a loop that makes the list items and then assign the right times
   hours.textContent = "Sunday: 8am - 8pm";
+  for (let i = 1; i < 8; i++) {
+     const day = document.getElement("li");
+     day.setAttribute("id", i);
+     listHours.appendChild(day);
+  }  
 
   content.appendChild(contentImg);
   content.appendChild(header);
