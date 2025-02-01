@@ -25,6 +25,7 @@ function loadPage() {
   contentImg.setAttribute("alt", "A plate of fancy food");
   contentH.textContent = "Welcome to the SUPER RESTAURANT!";
   contentP.textContent = "Here at the super Restuarant we only serve the finestin fine dinning. Our Chefs are world reknown and expertly trained in dishing out the very best meals money can provide.";
+  hours.textContent = "Sunday: 8am - 8pm";
 
   content.appendChild(contentImg);
   content.appendChild(header);
