@@ -30,12 +30,34 @@ function loadPage() {
   listHours.setAttribute("id", "listHours");
 
   //make a loop that makes the list items and then assign the right times
-  hours.textContent = "Sunday: 8am - 8pm";
   for (let i = 1; i < 8; i++) {
-     const day = document.getElement("li");
+     const day = document.createElement("li");
      day.setAttribute("id", i);
+     if(i == 1){
+       day.textContent = "Sunday: 8am - 8pm";
+     }
+     else if(i == 2){
+       day.textContent = "Monday: 8am - 8pm";
+     }
+     else if(i == 3){
+       day.textContent = "Tues: 8am - 8pm";
+     }
+     else if(i == 4){
+       day.textContent = "Wednesday: 8am - 8pm";
+     }
+     else if(i == 5){
+       day.textContent = "Thursday: 8am - 8pm";
+     }
+     else if(i == 6){
+       day.textContent = "Friday: 8am - 8pm";
+     }
+     else {
+       day.textContent = "Saturday: 8am - 8pm";
+     }
+     
      listHours.appendChild(day);
-  }  
+  }
+    
 
   content.appendChild(contentImg);
   content.appendChild(header);
