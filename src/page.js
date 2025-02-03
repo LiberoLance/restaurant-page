@@ -57,8 +57,8 @@ function loadPage() {
      
      listHours.appendChild(day);
   }
-    
-
+  hours.appendChild(listHours);  
+  
   content.appendChild(contentImg);
   content.appendChild(header);
   header.appendChild(contentH);
