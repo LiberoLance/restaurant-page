@@ -58,7 +58,15 @@ function loadPage() {
      listHours.appendChild(day);
   }
   hours.appendChild(listHours);  
-  
+
+  const locationH = document.createElement("h");
+  locationH.textContent = "Location";
+  locationH.setAttribute("id", "loch");
+  const locationP = document.createElement("p");
+  locationP.textContent = "Consult your galaxy map to find the nearest location.";
+  location.appendChild(locationH);
+  location.appendChild(locationP);
+    
   content.appendChild(contentImg);
   content.appendChild(header);
   header.appendChild(contentH);
