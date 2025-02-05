@@ -24,7 +24,7 @@ function loadPage() {
 
   contentImg.setAttribute("alt", "A plate of fancy food");
   contentH.textContent = "Welcome to the SUPER RESTAURANT!";
-  contentP.textContent = "Here at the super Restuarant we only serve the finestin fine dinning. Our Chefs are world reknown and expertly trained in dishing out the very best meals money can provide.";
+  contentP.textContent = "Here at the super Restuarant we only serve the finest in fine dinning. Our Chefs are world reknown and expertly trained in dishing out the very best meals money can provide.";
  
   const listHours = document.createElement("ul");
   listHours.setAttribute("id", "listHours");
@@ -40,7 +40,7 @@ function loadPage() {
        day.textContent = "Monday: 8am - 8pm";
      }
      else if(i == 3){
-       day.textContent = "Tues: 8am - 8pm";
+       day.textContent = "Tuesday: 8am - 8pm";
      }
      else if(i == 4){
        day.textContent = "Wednesday: 8am - 8pm";
