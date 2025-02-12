@@ -6,3 +6,4 @@ const sidesH = document.createElement("div");
 const sides = doucment.createElement("div");
 const mainDishesH = document.createElement("div");
 const mainDishes = document.createElement("div");
+const footer = document.createElement("div");
