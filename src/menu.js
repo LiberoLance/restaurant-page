@@ -7,3 +7,8 @@ const sides = doucment.createElement("div");
 const mainDishesH = document.createElement("div");
 const mainDishes = document.createElement("div");
 const footer = document.createElement("div");
+
+const beverage1 = document.createElement("div");
+const beverage2 = document.createElement("div");
+beverages.appendChild(beverage1;);
+beverages.appendChild(beverage2);
