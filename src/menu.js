@@ -12,3 +12,8 @@ const beverage1 = document.createElement("div");
 const beverage2 = document.createElement("div");
 beverages.appendChild(beverage1;);
 beverages.appendChild(beverage2);
+
+const sides1 = document.createElement("div");
+const sides2 = document.createElement("div");
+beverages.appendChild(sides1);
+beverages.appendChild(sides2);
