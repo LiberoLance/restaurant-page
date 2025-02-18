@@ -10,7 +10,11 @@ const footer = document.createElement("div");
 
 const beverage1 = document.createElement("div");
 const beverage2 = document.createElement("div");
-beverages.appendChild(beverage1;);
+const beverage1H = document.createElement("h1");
+const beverage1D = document.createElement("p");
+beverage1.appendChild(beverage1H);
+beverage1.appendChilde(beverage1D);
+beverages.appendChild(beverage1);
 beverages.appendChild(beverage2);
 
 const sides1 = document.createElement("div");
