@@ -34,7 +34,16 @@ beverages.appendChild(beverage1);
 beverages.appendChild(beverage2);
 
 const sides1 = document.createElement("div");
+const sides1H = document.createElement("h1");
+const sides1D = document.createElement("p");
+const sides1Price = document.createElement("h2");
+const sides1Img = document.createElement("img");
+
 const sides2 = document.createElement("div");
+const sides2H = document.createElement("h1");
+const sides2D = document.createElement("p");
+const sides2Price = document.createElement("h2");
+const sides2Img = document.createElement("img");
 sides.appendChild(sides1);
 sides.appendChild(sides2);
 
