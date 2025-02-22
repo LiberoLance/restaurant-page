@@ -44,6 +44,17 @@ const sides2H = document.createElement("h1");
 const sides2D = document.createElement("p");
 const sides2Price = document.createElement("h2");
 const sides2Img = document.createElement("img");
+
+sides1.appendChild(sides1H);
+sides1.appendChild(sides1D);
+sides1.appendChild(sides1Price);
+sides1.appendChild(sides1Img);
+
+sides2.appendChild(sides2H);
+sides2.appendChild(sides2D);
+sides2.appendChild(sides2Price);
+sides2.appendChild(sides2Img);
+
 sides.appendChild(sides1);
 sides.appendChild(sides2);
 
