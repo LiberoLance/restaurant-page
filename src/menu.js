@@ -66,6 +66,47 @@ const mainDish5 = document.createElement("div");
 const mainDish6 = document.createElement("div");
 const mainDish7 = document.createElement("div");
 const mainDish8 = document.createElement("div");
+
+const mainDish1H = document.createElement("h1");
+const mainDish1D = document.createElement("p");
+const mainDish1Price = document.createElement("h2");
+const mainDish1Img = document.createElement("img");
+
+const mainDish2H = document.createElement("h1");
+const mainDish2D = document.createElement("p");
+const mainDish2Price = document.createElement("h2");
+const mainDish2Img = document.createElement("img");
+
+const mainDish3H = document.createElement("h1");
+const mainDish3D = document.createElement("p");
+const mainDish3Price = document.createElement("h2");
+const mainDish3Img = document.createElement("img");
+
+const mainDish4H = document.createElement("h1");
+const mainDish4D = document.createElement("p");
+const mainDish4Price = document.createElement("h2");
+const mainDish4Img = document.createElement("img");
+
+mainDish1.appendChild(mainDish1H);
+mainDish1.appendChild(mainDish1D);
+mainDish1.appendChild(mainDish1Price);
+mainDish1.appendChild(mainDish1Img);
+
+mainDish2.appendChild(mainDish2H);
+mainDish2.appendChild(mainDish2D);
+mainDish2.appendChild(mainDish2Price);
+mainDish2.appendChild(mainDish2Img);
+
+mainDish3.appendChild(mainDish3H);
+mainDish3.appendChild(mainDish3D);
+mainDish3.appendChild(mainDish3Price);
+mainDish3.appendChild(mainDish3Img);
+
+mainDish4.appendChild(mainDish4H);
+mainDish4.appendChild(mainDish4D);
+mainDish4.appendChild(mainDish4Price);
+mainDish4.appendChild(mainDish4Img);
+
 mainDishes.appendChild(mainDish1);
 mainDishes.appendChild(mainDish2);
 mainDishes.appendChild(mainDish3);
