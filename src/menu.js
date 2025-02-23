@@ -107,6 +107,26 @@ mainDish4.appendChild(mainDish4D);
 mainDish4.appendChild(mainDish4Price);
 mainDish4.appendChild(mainDish4Img);
 
+mainDish5.appendChild(mainDish5H);
+mainDish5.appendChild(mainDish5D);
+mainDish5.appendChild(mainDish5Price);
+mainDish5.appendChild(mainDish5Img);
+
+mainDish6.appendChild(mainDish6H);
+mainDish6.appendChild(mainDish6D);
+mainDish6.appendChild(mainDish6Price);
+mainDish6.appendChild(mainDish6Img);
+
+mainDish7.appendChild(mainDish7H);
+mainDish7.appendChild(mainDish7D);
+mainDish7.appendChild(mainDish7Price);
+mainDish7.appendChild(mainDish7Img);
+
+mainDish8.appendChild(mainDish8H);
+mainDish8.appendChild(mainDish8D);
+mainDish8.appendChild(mainDish8Price);
+mainDish8.appendChild(mainDish8Img);
+
 mainDishes.appendChild(mainDish1);
 mainDishes.appendChild(mainDish2);
 mainDishes.appendChild(mainDish3);
