@@ -8,6 +8,8 @@ const mainDishesH = document.createElement("div");
 const mainDishes = document.createElement("div");
 const footer = document.createElement("div");
 
+const beverageAry = [];
+
 const beverage1 = document.createElement("div");
 const beverage1H = document.createElement("h1");
 const beverage1D = document.createElement("p");
