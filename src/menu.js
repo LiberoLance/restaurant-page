@@ -8,32 +8,24 @@ const mainDishesH = document.createElement("div");
 const mainDishes = document.createElement("div");
 const footer = document.createElement("div");
 
-const beverageAry = [];
+function loadBeverages() {
+  for(let i = 1; i < 3; i++) {
+    const beveragei = document.createElement("div");
+    const beverageiH = document.createElement("h1");
+    const beverageiD = document.createElement("p");
+    const beverageiPrice = document.createElement("h2");
+    const beverageiImg = document.createElement("img");
 
-const beverage1 = document.createElement("div");
-const beverage1H = document.createElement("h1");
-const beverage1D = document.createElement("p");
-const beverage1Price = document.createElement("h2");
-const beverage1Img = document.createElement("img");
+    beveragei.appendChild(beverageiH);
+    beveragei.appendChild(beverageiD);
+    beveragei.appendChild(beverageiPrice);
+    beveragei.appendChild(beverageiImg);
+    
+    beverages.appendChild(beveragei);
+  }
+}
 
-const beverage2 = document.createElement("div");
-const beverage2H = document.createElement("h1");
-const beverage2D = document.createElement("p");
-const beverage2Price = document.createElement("h2");
-const beverage2Img = document.createElement("img");
-
-beverage1.appendChild(beverage1H);
-beverage1.appendChild(beverage1D);
-beverage1.appendChild(beverage1Price);
-beverage1.appendChild(beverage1Img);
-
-beverage2.appendChild(beverage2H);
-beverage2.appendChild(beverage2D);
-beverage2.appendChild(beverage2Price);
-beverage2.appendChild(beverage2Img);
-
-beverages.appendChild(beverage1);
-beverages.appendChild(beverage2);
+loadBeverages();
 
 const sides1 = document.createElement("div");
 const sides1H = document.createElement("h1");
