@@ -27,30 +27,24 @@ function loadBeverages() {
 
 loadBeverages();
 
-const sides1 = document.createElement("div");
-const sides1H = document.createElement("h1");
-const sides1D = document.createElement("p");
-const sides1Price = document.createElement("h2");
-const sides1Img = document.createElement("img");
+function loadSides() {
+  for(let i = 1; i < 3; i++) {
+    const sidei = document.createElement("div");
+    const sideiH = document.createElement("h1");
+    const sideeiD = document.createElement("p");
+    const sideiPrice = document.createElement("h2");
+    const sideiImg = document.createElement("img");
 
-const sides2 = document.createElement("div");
-const sides2H = document.createElement("h1");
-const sides2D = document.createElement("p");
-const sides2Price = document.createElement("h2");
-const sides2Img = document.createElement("img");
+    sidei.appendChild(sideiH);
+    sidei.appendChild(sideiD);
+    sidei.appendChild(sideiPrice);
+    sidei.appendChild(sideiImg);
 
-sides1.appendChild(sides1H);
-sides1.appendChild(sides1D);
-sides1.appendChild(sides1Price);
-sides1.appendChild(sides1Img);
+    sides.appendChild(sidei);
+  }
+}
 
-sides2.appendChild(sides2H);
-sides2.appendChild(sides2D);
-sides2.appendChild(sides2Price);
-sides2.appendChild(sides2Img);
-
-sides.appendChild(sides1);
-sides.appendChild(sides2);
+loadsides();
 
 const mainDish1 = document.createElement("div");
 const mainDish2 = document.createElement("div");
