@@ -44,82 +44,23 @@ function loadSides() {
   }
 }
 
-loadsides();
+loadSides();
 
-const mainDish1 = document.createElement("div");
-const mainDish2 = document.createElement("div");
-const mainDish3 = document.createElement("div");
-const mainDish4 = document.createElement("div");
-const mainDish5 = document.createElement("div");
-const mainDish6 = document.createElement("div");
-const mainDish7 = document.createElement("div");
-const mainDish8 = document.createElement("div");
+function loadMains() {
+  for(let i = 1; i < 9; i++) {
+    const mainDishi = document.createElement("div");
+    const mainDishiH = document.createElement("h1");
+    const mainDishiD = document.createElement("p");
+    const mainDishiPrice = document.createElement("h2");
+    const mainDishiImg = document.createElement("img");
 
-const mainDish1H = document.createElement("h1");
-const mainDish1D = document.createElement("p");
-const mainDish1Price = document.createElement("h2");
-const mainDish1Img = document.createElement("img");
+    mainDishi.appendChild(sideiH);
+    mainDishi.appendChild(sideiD);
+    mainDishi.appendChild(sideiPrice);
+    mainDishi.appendChild(sideiImg);
 
-const mainDish2H = document.createElement("h1");
-const mainDish2D = document.createElement("p");
-const mainDish2Price = document.createElement("h2");
-const mainDish2Img = document.createElement("img");
+    mainDishes.appendChild(mainDishi);
+  }
+}
 
-const mainDish3H = document.createElement("h1");
-const mainDish3D = document.createElement("p");
-const mainDish3Price = document.createElement("h2");
-const mainDish3Img = document.createElement("img");
-
-const mainDish4H = document.createElement("h1");
-const mainDish4D = document.createElement("p");
-const mainDish4Price = document.createElement("h2");
-const mainDish4Img = document.createElement("img");
-
-mainDish1.appendChild(mainDish1H);
-mainDish1.appendChild(mainDish1D);
-mainDish1.appendChild(mainDish1Price);
-mainDish1.appendChild(mainDish1Img);
-
-mainDish2.appendChild(mainDish2H);
-mainDish2.appendChild(mainDish2D);
-mainDish2.appendChild(mainDish2Price);
-mainDish2.appendChild(mainDish2Img);
-
-mainDish3.appendChild(mainDish3H);
-mainDish3.appendChild(mainDish3D);
-mainDish3.appendChild(mainDish3Price);
-mainDish3.appendChild(mainDish3Img);
-
-mainDish4.appendChild(mainDish4H);
-mainDish4.appendChild(mainDish4D);
-mainDish4.appendChild(mainDish4Price);
-mainDish4.appendChild(mainDish4Img);
-
-mainDish5.appendChild(mainDish5H);
-mainDish5.appendChild(mainDish5D);
-mainDish5.appendChild(mainDish5Price);
-mainDish5.appendChild(mainDish5Img);
-
-mainDish6.appendChild(mainDish6H);
-mainDish6.appendChild(mainDish6D);
-mainDish6.appendChild(mainDish6Price);
-mainDish6.appendChild(mainDish6Img);
-
-mainDish7.appendChild(mainDish7H);
-mainDish7.appendChild(mainDish7D);
-mainDish7.appendChild(mainDish7Price);
-mainDish7.appendChild(mainDish7Img);
-
-mainDish8.appendChild(mainDish8H);
-mainDish8.appendChild(mainDish8D);
-mainDish8.appendChild(mainDish8Price);
-mainDish8.appendChild(mainDish8Img);
-
-mainDishes.appendChild(mainDish1);
-mainDishes.appendChild(mainDish2);
-mainDishes.appendChild(mainDish3);
-mainDishes.appendChild(mainDish4);
-mainDishes.appendChild(mainDish5);
-mainDishes.appendChild(mainDish6);
-mainDishes.appendChild(mainDish7);
-mainDishes.appendChild(mainDish8);
+loadMains();
