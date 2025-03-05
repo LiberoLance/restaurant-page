@@ -1,3 +1,5 @@
+function loadMenu() {
+
 const page = document.createElement("div");
 const header = document.createElement("div");
 const beverageH = document.createElement("div");
@@ -64,3 +66,7 @@ function loadMains() {
 }
 
 loadMains();
+
+}
+
+export { loadMenu };
