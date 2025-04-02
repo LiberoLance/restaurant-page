@@ -1,6 +1,9 @@
 function loadContactPage(){
   const contactPageContainer = document.createElement("div");
   const titleContainer = document.createElement("div");
+  const titleP = document.createElement("p");
+  titleP.textContent = "Contact Us";
+  titleContainer.appendChild(titleP);  
 
   for(let i = 1; i < 3; i++) {
     const contactContaineri = document.createElement("div");
