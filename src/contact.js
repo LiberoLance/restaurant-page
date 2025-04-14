@@ -23,4 +23,9 @@ function loadContact(){
       contactContaineri.appendChild(contactNamei);
       contactContaineri.appendChild(contactuli);
     }
-  }
+}
+
+function setContactInfo(index) {
+
+}
+
