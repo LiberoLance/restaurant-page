@@ -26,6 +26,11 @@ function loadContact(){
 }
 
 function setContactInfo(index) {
-
+  if(index == 1) {
+    contactNamei.textContent = "Joel";
+    contactTitlei.textContent = "Joel";
+    contactNumberi.textContent= "1800-888-8888";
+    contactEmaili.textContent = "Joel@Joel.mail";
+  }
 }
 
