@@ -32,5 +32,12 @@ function setContactInfo(index) {
     contactNumberi.textContent= "1800-888-8888";
     contactEmaili.textContent = "Joel@Joel.mail";
   }
+  if(index == 2) {
+    contactNamei.textContent = "General Brasch";
+    contactTitlei.textContent = "General";
+    contactNumberi.textContent= "1800-900-9999";
+    contactEmaili.textContent = "GeneralBrasch@Supermail.gov";
+  }
+
 }
 
