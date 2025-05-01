@@ -36,8 +36,15 @@ function setContactInfo(index) {
     contactNamei.textContent = "General Brasch";
     contactTitlei.textContent = "General";
     contactNumberi.textContent= "1800-900-9999";
-    contactEmaili.textContent = "GeneralBrasch@Supermail.gov";
+    contactEmaili.textContent = "GeneralBrasch@supermail.gov";
   }
+  if(index == 3) {
+    contactNamei.textContent = "Eagle1";
+    contactTitlei.textContent = "Super Earth's Finest";
+    contactNumberi.textContent= "1800-888-8888";
+    contactEmaili.textContent = "Eagle1@supermail.mail";
+  }
+
 
 }
 
