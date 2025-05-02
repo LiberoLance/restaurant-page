@@ -16,6 +16,8 @@ function loadContact(){
       const contactTitlei = document.createElement("li");
       const contactNumberi = document.createElement(li);
       const contactEmaili = document.createElement("li");
+      
+      setContactInfo(i); 
 
       contactuli.appendChild(contactTitlei);
       contactuli.appendChild(contactNumberi);
