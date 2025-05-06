@@ -4,7 +4,8 @@ function loadContactPage(){
   const titleP = document.createElement("p");
   titleP.textContent = "Contact Us";
   titleContainer.appendChild(titleP);
-
+  titleContainer.setAttribute('id', 'titleContainer');
+ 
   loadContact();  
 }
 
@@ -46,7 +47,5 @@ function setContactInfo(index) {
     contactNumberi.textContent= "1800-888-8888";
     contactEmaili.textContent = "Eagle1@supermail.mail";
   }
-
-
 }
 
