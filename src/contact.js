@@ -18,6 +18,7 @@ function loadContact(){
       const contactNumberi = document.createElement(li);
       const contactEmaili = document.createElement("li");
       
+      contactContaineri.setAttribute('id', "contactContainer" + i);
       setContactInfo(i); 
 
       contactuli.appendChild(contactTitlei);
