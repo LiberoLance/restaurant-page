@@ -18,7 +18,9 @@ function loadContact(){
       const contactNumberi = document.createElement(li);
       const contactEmaili = document.createElement("li");
       
-      contactContaineri.setAttribute('id', "contactContainer" + i);
+      contactContaineri.setAttribute('id', 'contactContainer' + i);
+      contactNamei.setAttribute('id', 'contactName' + i);
+      contactuli.setAttribute('id', 'contactuli' + i);
       setContactInfo(i); 
 
       contactuli.appendChild(contactTitlei);
@@ -46,7 +48,7 @@ function setContactInfo(index) {
     contactNamei.textContent = "Eagle1";
     contactTitlei.textContent = "Super Earth's Finest";
     contactNumberi.textContent= "1800-888-8888";
-    contactEmaili.textContent = "Eagle1@supermail.mail";
+    contactEmaili.textContent = "Eagle1@supermail.gov";
   }
 }
 
