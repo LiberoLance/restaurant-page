@@ -21,6 +21,9 @@ function loadContact(){
       contactContaineri.setAttribute('id', 'contactContainer' + i);
       contactNamei.setAttribute('id', 'contactName' + i);
       contactuli.setAttribute('id', 'contactuli' + i);
+      contactTitlei.setAttribute('id', 'contactTitle' + i);
+      contactNumberi.setAttribute('id', 'contactNumber' + i);
+      contactEmaili.setAttribute('id', 'contactEmail' + i);
       setContactInfo(i); 
 
       contactuli.appendChild(contactTitlei);
