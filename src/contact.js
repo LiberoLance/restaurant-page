@@ -2,6 +2,7 @@ function loadContactPage(){
   const contactPageContainer = document.createElement("div");
   const titleContainer = document.createElement("div");
   const titleP = document.createElement("p");
+  contactPageContainer.setAttribute('id', 'contactPageContainer');
   titleP.textContent = "Contact Us";
   titleContainer.appendChild(titleP);
   titleContainer.setAttribute('id', 'titleContainer');
